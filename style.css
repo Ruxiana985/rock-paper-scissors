@@ -1,0 +1,69 @@
+html{
+    background-color: pink;
+    
+  }
+  
+  .cs1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+  }
+  
+  
+  .button{
+    display: flex;
+    align-items: center;
+    font-size: 1.6em;
+    font-family: cursive;
+    background-color: tomato;
+    padding: 5px;
+    text-align: center;
+    border: 10px ridge midnightblue;
+    border-radius: 5px;
+    flex-wrap: wrap;}
+  
+    
+    
+    
+    
+    
+  
+  
+  
+  .results{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: cursive;
+  }
+  
+  .rounds{
+    display: flex;
+    gap: 200px;
+    font-size: 1.3em;
+    justify-content: center;
+    align-items: flex-start;
+   
+    
+  }
+  
+  .user,  .comp{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+  }
+  
+  .user-round, .comp-round{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  
