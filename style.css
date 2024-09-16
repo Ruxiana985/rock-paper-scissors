@@ -1,69 +1,89 @@
 html{
-    background-color: pink;
-    
-  }
-  
-  .cs1{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-  }
+  background-color: rgba(59, 59, 59, 0.877);
+  background-image: url('ai-generated-8680230_1280.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   
   
-  .button{
-    display: flex;
-    align-items: center;
-    font-size: 1.6em;
-    font-family: cursive;
-    background-color: tomato;
-    padding: 5px;
-    text-align: center;
-    border: 10px ridge midnightblue;
-    border-radius: 5px;
-    flex-wrap: wrap;}
+}
+body{
+  font-family: cursive;
+}
+.button{
+  font-size: 3em;
+  background-color: rgba(18, 18, 46, 0.89);
+}
+.start{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-left: 900px;;
+  width: 600px;
+  height: 100px;
   
-    
-    
-    
-    
-    
+  color: white;
+  border: 10px solid black;
+  border-radius: 15px;
+
+}
+
+
+
+.game-elements{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.rock{
   
+  background-image: url('rock.png');
   
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 400px;
+  border: 6px solid black;
+  border-radius: 15px;
+}
+
+.paper{
   
-  .results{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    font-family: cursive;
-  }
+  background-image: url('paper.png');
+ 
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 400px;
+  border: 6px solid black;
+  border-radius: 15px;
+}
+
+.scissors{
   
-  .rounds{
-    display: flex;
-    gap: 200px;
-    font-size: 1.3em;
-    justify-content: center;
-    align-items: flex-start;
-   
-    
-  }
+  background-image: url('scissor.png');
   
-  .user,  .comp{
-    display: flex;
-    justify-content: center;
-    border: 3px solid black;
-    height: 100px;
-    width: 200px;
-  }
-  
-  .user-round, .comp-round{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    
-  }
-  
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  height: 300px;
+  width: 400px;
+  border: 6px solid black;
+  border-radius: 15px;
+}
+
+
+
+.rounds{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  gap: 32px;
+
+}
